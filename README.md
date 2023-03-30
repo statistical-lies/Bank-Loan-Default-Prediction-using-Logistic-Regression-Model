@@ -37,3 +37,6 @@ status= status of either settled on time or not
 1=did not settle loan on time
 
 Binary Logistc Regression model was used for making the prediction
+
+# Confusion Matrix
+Confusion matrix is used to evaluate classification models.Classification models categorize the outcome into two or more categories in our case whether the customer will pay the loan amount on time or not
