@@ -1,7 +1,6 @@
-# DATA-SCIENCE-AND-MACHINE-LEARNING
-Bank Loan Prediction
+# Bank Loan Prediction
 
-# INTRODUCTION
+#INTRODUCTION
 
 A loan default occurs when a person(known as a borrower) takes money from a bank and he/she is not able to repay the loan. People often fail to repay(default) loans due to some personal or various reason after the loan has been acqured.people who are not able to repay their loans does not only damage their risk of being
 sued in court but somethings also put their families in debt or on edges of losing a valueable family properties like houses,lands,cars etc. Banks or financial institutions somethings loses huge sums of their financial assets after their borrowers are not able to fulfill their end of the bagain.
@@ -40,3 +39,45 @@ Binary Logistc Regression model was used for making the prediction
 
 # Confusion Matrix
 Confusion matrix is used to evaluate classification models.Classification models categorize the outcome into two or more categories in our case whether the customer will pay the loan amount on time or not
+
+![1_umiim1SOOriOGA2izJJn1A](https://user-images.githubusercontent.com/59277986/228695552-25389030-cdba-4bb1-b33d-8b88b284f34b.png)
+![download](https://user-images.githubusercontent.com/59277986/228700203-9b392eec-ce8c-4bca-a678-605b6817fb98.png)
+
+
+Explanation:
+
+True Positive: actual category and predicted category are both positive. Number of times the model correctly classified an status as default.
+
+True Negative: actual category and predicted category are both negative. Number of times the model correctly classified an status as no-default.
+
+False Positive: actual category is negative and predicted category is positive. Number of times the model classified an status as default, when it is actually not-default.
+
+False Negative: actual category is positive and predicted category is negative. Number of times the model classified an status as not-default, when it is actually default.
+
+# 1.1e+02=110
+
+There are several statistical measures we can derive:
+
+# 1.Overall accuracy: TP + TN / Total No. of Records
+
+110 + 0 / (54+0+3+110) = 65.868%
+
+This is a general measure of the model performance.
+
+# 2. Sensitivity or Recall: TP / (TP + FN)
+
+110 / (110 + 3) = 97.3451%
+
+This measures the proportion of actual positives that the model correctly classifies.
+
+# 3. Specificity: TN / (FP + TN)
+
+0/ (54 + 0) = 0%
+
+This measures the performance of the model in predicting negative outcome.
+
+# 4. Precision: TP / (TP + FP)
+
+110 / (110 + 54) = 67.07%
+
+This measures the accuracy of predicted positive outcome
