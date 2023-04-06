@@ -78,6 +78,6 @@ This measures the performance of the model in predicting negative outcome.
 
 # 4. Precision: TP / (TP + FP)
 
-110 / (110 + 54) = 67.07%
+110 / (110 + 54) = 67.07 %
 
 This measures the accuracy of predicted positive outcome
