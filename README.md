@@ -58,7 +58,7 @@ False Negative: actual category is positive and predicted category is negative. 
 
 There are several statistical measures we can derive:
 
-# 1.Overall accuracy: TP + TN / Total No. of Records
+# 1.Overall accuracy: TP + TN / Total No. of Records in the data
 
 110 + 0 / (54+0+3+110) = 65.868%
 
